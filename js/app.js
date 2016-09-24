@@ -1,6 +1,7 @@
 $(document).ready(function(){
   $('.next').click(function(){
     $('.left').removeClass('disabled');
+    $('.right').addClass('disabled');
     $('.question-box1').addClass('hide');
     $('.question-box2').removeClass('hide');
   });
